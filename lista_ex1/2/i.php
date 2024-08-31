@@ -5,7 +5,10 @@
 // o valor total das vendas, o salário fixo mensal e o valor da comissão por carro vendido. 
 //O algoritmo deve calcular e exibir o salário final do vendedor, 
 //que é a soma do salário fixo, da comissão por carro vendido, e 5% do valor total das vendas.
-$numC = readline("numero de carros vendidos: ");
-$vTotal = readline("valor total das vendas: ");
-$salarioF = readline("salario fixo: ");
+$numC = readline("numero de carros vendidos: ");//4
+$vTotal = readline("valor total das vendas: ");//R$300000
+$salarioFixo = readline("salario fixo: ");//2000
 $comissao = 100;
+$somaTotal = ($salarioFixo + ($comissao*$numC) + ($vTotal*0.5));//2000+(100*4)+(300000*0.05)
+
+echo"o salário final do trabalhador é de R$: $somaTotal\n";
