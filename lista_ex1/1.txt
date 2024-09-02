@@ -1,0 +1,17 @@
+
+1. Indique qual o tipo dos seguintes dados (Inteiro, Decimal, String ou Booleano): 
+a)-456 INTEIRO
+b)false BOOLEANO
+c)“0.87” STRING
+d)1.67 FLOAT
+e)“Casa 8” STRING
+f)0 INTEIRO
+g)1000 INTEIRO
+h)true BOOLEANO
+i)“-900” STRING 
+j)3 INTEIRO
+k)0.0 FLOAT
+l)-3.1415 FLOAT
+m)32150 INTEIRO
+n)128288 INTEIRO
+o)“false” STRING
