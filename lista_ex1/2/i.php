@@ -9,6 +9,6 @@ $numC = readline("numero de carros vendidos: ");//4
 $vTotal = readline("valor total das vendas: ");//R$300000
 $salarioFixo = readline("salario fixo: ");//2000
 $comissao = 100;
-$somaTotal = ($salarioFixo + ($comissao*$numC) + ($vTotal*0.5));//2000+(100*4)+(300000*0.05)
+$somaTotal = ($salarioFixo + ($comissao*$numC) + ($vTotal*0.05));//2000+(100*4)+(300000*0.05)
 
 echo"o salário final do trabalhador é de R$: $somaTotal\n";
