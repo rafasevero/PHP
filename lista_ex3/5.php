@@ -1,20 +1,25 @@
 <?php
 //Elaborar um programa que leia valores inteiros até que o valor zero seja informado.
 //No final deve ser apresentado o maior e o menor valor fornecido pelo usuário.
-$maior = 0;
-$menor = 9999;
-$ajudante = 0;
-do{
+$maior = PHP_INT_MIN; // Inicializa o maior valor com o menor inteiro possível
+$menor = PHP_INT_MAX; // Inicializa o menor valor com o maior inteiro possível
 
-$a = readline("Digite um valor : ");
-$ajudante = $a;
-if ($ajudante > $maior){
-    $maior = $ajudante;
-}else if($ajudante > $menor){
-    $
-}
+do {
+    $a = readline("Digite um valor (0 para sair): "); 
 
-}while($a != 0);
+    if ($a != 0) {
+        if ($a > $maior) {
+            $maior = $a;
+        }
+        
+        if ($a < $menor) {
+            $menor = $a;
+        }
+    }
 
-echo "o maior número digitado foi $maior\n";
-echo "e o menor foi $menor\n";
+} while ($a != 0);
+
+// Exibe os resultados
+echo "O maior número digitado foi $maior\n";
+echo "O menor número digitado foi $menor\n";
+?>
