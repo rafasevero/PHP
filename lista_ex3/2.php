@@ -3,8 +3,8 @@
 $soma = 0;
 $media = 0;
 for($i = 0; $i <= 10; $i++ ){
-$a = readline("digite um valor: ");
-$soma += $a;
-$media = $soma / 11;
+    $a = readline("digite um valor: ");
+    $soma += $a;
+    $media = $soma / 11;
 }
 echo "a média entre os números foi de $media\n";
